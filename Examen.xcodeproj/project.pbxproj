@@ -45,6 +45,21 @@
 		AE8CA7BB1D73DCC6001F4BA3 /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8CA7BA1D73DCC6001F4BA3 /* Parser.m */; };
 		AE8CA7BE1D73DCE2001F4BA3 /* OCMapperConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8CA7BD1D73DCE2001F4BA3 /* OCMapperConfig.m */; };
 		AE8CA7C11D73DCF5001F4BA3 /* MainObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8CA7C01D73DCF5001F4BA3 /* MainObject.m */; };
+		AE8CA7C71D74256C001F4BA3 /* Payments.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8CA7C61D74256C001F4BA3 /* Payments.m */; };
+		AE8CA7CC1D74282A001F4BA3 /* cellPayments.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8CA7CA1D74282A001F4BA3 /* cellPayments.m */; };
+		AE8CA7CD1D74282A001F4BA3 /* cellPayments.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE8CA7CB1D74282A001F4BA3 /* cellPayments.xib */; };
+		AE8CA7D91D7430E0001F4BA3 /* abrigo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE8CA7CF1D7430E0001F4BA3 /* abrigo.jpg */; };
+		AE8CA7DA1D7430E0001F4BA3 /* blusa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE8CA7D01D7430E0001F4BA3 /* blusa.jpg */; };
+		AE8CA7DB1D7430E0001F4BA3 /* chamarra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE8CA7D11D7430E0001F4BA3 /* chamarra.jpg */; };
+		AE8CA7DC1D7430E0001F4BA3 /* falda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE8CA7D21D7430E0001F4BA3 /* falda.jpg */; };
+		AE8CA7DD1D7430E0001F4BA3 /* jeans.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE8CA7D31D7430E0001F4BA3 /* jeans.jpg */; };
+		AE8CA7DE1D7430E0001F4BA3 /* pantalon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE8CA7D41D7430E0001F4BA3 /* pantalon.jpg */; };
+		AE8CA7DF1D7430E0001F4BA3 /* short.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE8CA7D51D7430E0001F4BA3 /* short.jpg */; };
+		AE8CA7E01D7430E0001F4BA3 /* sueter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE8CA7D61D7430E0001F4BA3 /* sueter.jpg */; };
+		AE8CA7E11D7430E0001F4BA3 /* vestidoDia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE8CA7D71D7430E0001F4BA3 /* vestidoDia.jpg */; };
+		AE8CA7E21D7430E0001F4BA3 /* vestidoLargo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE8CA7D81D7430E0001F4BA3 /* vestidoLargo.jpg */; };
+		AE8CA7E41D744AAB001F4BA3 /* comprar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE8CA7E31D744AAB001F4BA3 /* comprar.jpg */; };
+		AE8CA7E71D74501B001F4BA3 /* Process.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8CA7E61D74501B001F4BA3 /* Process.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,7 +76,7 @@
 		AE8CA74E1D73D5C8001F4BA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE8CA7511D73D5C8001F4BA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE8CA7531D73D5C8001F4BA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE8CA75D1D73D999001F4BA3 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		AE8CA75D1D73D999001F4BA3 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AE8CA7601D73DB10001F4BA3 /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
 		AE8CA7611D73DB10001F4BA3 /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
 		AE8CA7621D73DB10001F4BA3 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
@@ -125,6 +140,24 @@
 		AE8CA7BD1D73DCE2001F4BA3 /* OCMapperConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCMapperConfig.m; sourceTree = "<group>"; };
 		AE8CA7BF1D73DCF5001F4BA3 /* MainObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainObject.h; sourceTree = "<group>"; };
 		AE8CA7C01D73DCF5001F4BA3 /* MainObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainObject.m; sourceTree = "<group>"; };
+		AE8CA7C51D74256C001F4BA3 /* Payments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Payments.h; sourceTree = "<group>"; };
+		AE8CA7C61D74256C001F4BA3 /* Payments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Payments.m; sourceTree = "<group>"; };
+		AE8CA7C91D74282A001F4BA3 /* cellPayments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellPayments.h; sourceTree = "<group>"; };
+		AE8CA7CA1D74282A001F4BA3 /* cellPayments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellPayments.m; sourceTree = "<group>"; };
+		AE8CA7CB1D74282A001F4BA3 /* cellPayments.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellPayments.xib; sourceTree = "<group>"; };
+		AE8CA7CF1D7430E0001F4BA3 /* abrigo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abrigo.jpg; sourceTree = "<group>"; };
+		AE8CA7D01D7430E0001F4BA3 /* blusa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blusa.jpg; sourceTree = "<group>"; };
+		AE8CA7D11D7430E0001F4BA3 /* chamarra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chamarra.jpg; sourceTree = "<group>"; };
+		AE8CA7D21D7430E0001F4BA3 /* falda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = falda.jpg; sourceTree = "<group>"; };
+		AE8CA7D31D7430E0001F4BA3 /* jeans.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jeans.jpg; sourceTree = "<group>"; };
+		AE8CA7D41D7430E0001F4BA3 /* pantalon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pantalon.jpg; sourceTree = "<group>"; };
+		AE8CA7D51D7430E0001F4BA3 /* short.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = short.jpg; sourceTree = "<group>"; };
+		AE8CA7D61D7430E0001F4BA3 /* sueter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sueter.jpg; sourceTree = "<group>"; };
+		AE8CA7D71D7430E0001F4BA3 /* vestidoDia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vestidoDia.jpg; sourceTree = "<group>"; };
+		AE8CA7D81D7430E0001F4BA3 /* vestidoLargo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vestidoLargo.jpg; sourceTree = "<group>"; };
+		AE8CA7E31D744AAB001F4BA3 /* comprar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = comprar.jpg; sourceTree = "<group>"; };
+		AE8CA7E51D74501B001F4BA3 /* Process.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Process.h; sourceTree = "<group>"; };
+		AE8CA7E61D74501B001F4BA3 /* Process.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Process.m; sourceTree = "<group>"; };
 		BE3AE06E5B17A2033729F93B /* libPods-Examen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Examen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -171,6 +204,8 @@
 		AE8CA73E1D73D5C8001F4BA3 /* Examen */ = {
 			isa = PBXGroup;
 			children = (
+				AE8CA7CE1D7430E0001F4BA3 /* Imgs */,
+				AE8CA7C81D7427E2001F4BA3 /* Cells */,
 				AE8CA75C1D73D5EE001F4BA3 /* Classes */,
 				AE8CA75B1D73D5E5001F4BA3 /* Models */,
 				AE8CA75A1D73D5DA001F4BA3 /* Controllers */,
@@ -219,6 +254,10 @@
 				AE8CA7461D73D5C8001F4BA3 /* Start.m */,
 				AE8CA7B01D73DC62001F4BA3 /* MapResults.h */,
 				AE8CA7B11D73DC62001F4BA3 /* MapResults.m */,
+				AE8CA7C51D74256C001F4BA3 /* Payments.h */,
+				AE8CA7C61D74256C001F4BA3 /* Payments.m */,
+				AE8CA7E51D74501B001F4BA3 /* Process.h */,
+				AE8CA7E61D74501B001F4BA3 /* Process.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -344,6 +383,34 @@
 			path = "In Code Mapping";
 			sourceTree = "<group>";
 		};
+		AE8CA7C81D7427E2001F4BA3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AE8CA7C91D74282A001F4BA3 /* cellPayments.h */,
+				AE8CA7CA1D74282A001F4BA3 /* cellPayments.m */,
+				AE8CA7CB1D74282A001F4BA3 /* cellPayments.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		AE8CA7CE1D7430E0001F4BA3 /* Imgs */ = {
+			isa = PBXGroup;
+			children = (
+				AE8CA7E31D744AAB001F4BA3 /* comprar.jpg */,
+				AE8CA7CF1D7430E0001F4BA3 /* abrigo.jpg */,
+				AE8CA7D01D7430E0001F4BA3 /* blusa.jpg */,
+				AE8CA7D11D7430E0001F4BA3 /* chamarra.jpg */,
+				AE8CA7D21D7430E0001F4BA3 /* falda.jpg */,
+				AE8CA7D31D7430E0001F4BA3 /* jeans.jpg */,
+				AE8CA7D41D7430E0001F4BA3 /* pantalon.jpg */,
+				AE8CA7D51D7430E0001F4BA3 /* short.jpg */,
+				AE8CA7D61D7430E0001F4BA3 /* sueter.jpg */,
+				AE8CA7D71D7430E0001F4BA3 /* vestidoDia.jpg */,
+				AE8CA7D81D7430E0001F4BA3 /* vestidoLargo.jpg */,
+			);
+			path = Imgs;
+			sourceTree = "<group>";
+		};
 		F570BE82024D443ACEDBA62F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -412,10 +479,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE8CA7DA1D7430E0001F4BA3 /* blusa.jpg in Resources */,
 				AE8CA7521D73D5C8001F4BA3 /* LaunchScreen.storyboard in Resources */,
+				AE8CA7DB1D7430E0001F4BA3 /* chamarra.jpg in Resources */,
+				AE8CA7DD1D7430E0001F4BA3 /* jeans.jpg in Resources */,
+				AE8CA7DF1D7430E0001F4BA3 /* short.jpg in Resources */,
+				AE8CA7DC1D7430E0001F4BA3 /* falda.jpg in Resources */,
+				AE8CA7D91D7430E0001F4BA3 /* abrigo.jpg in Resources */,
 				AE8CA74F1D73D5C8001F4BA3 /* Assets.xcassets in Resources */,
 				AE8CA75E1D73D999001F4BA3 /* Podfile in Resources */,
+				AE8CA7E21D7430E0001F4BA3 /* vestidoLargo.jpg in Resources */,
+				AE8CA7E11D7430E0001F4BA3 /* vestidoDia.jpg in Resources */,
 				AE8CA74A1D73D5C8001F4BA3 /* Main.storyboard in Resources */,
+				AE8CA7E01D7430E0001F4BA3 /* sueter.jpg in Resources */,
+				AE8CA7CD1D74282A001F4BA3 /* cellPayments.xib in Resources */,
+				AE8CA7E41D744AAB001F4BA3 /* comprar.jpg in Resources */,
+				AE8CA7DE1D7430E0001F4BA3 /* pantalon.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,6 +556,7 @@
 				AE8CA7A31D73DB3D001F4BA3 /* CommonLoggingProvider.m in Sources */,
 				AE8CA7471D73D5C8001F4BA3 /* Start.m in Sources */,
 				AE8CA74D1D73D5C8001F4BA3 /* Examen.xcdatamodeld in Sources */,
+				AE8CA7E71D74501B001F4BA3 /* Process.m in Sources */,
 				AE8CA7801D73DB10001F4BA3 /* SBJsonStreamWriterAccumulator.m in Sources */,
 				AE8CA7A01D73DB3D001F4BA3 /* NSObject+ObjectMapper.m in Sources */,
 				AE8CA77C1D73DB10001F4BA3 /* SBJsonStreamParserAccumulator.m in Sources */,
@@ -494,12 +574,14 @@
 				AE8CA7B81D73DCAB001F4BA3 /* WebServices.m in Sources */,
 				AE8CA7B51D73DC90001F4BA3 /* Declarations.m in Sources */,
 				AE8CA77B1D73DB10001F4BA3 /* SBJsonStreamParser.m in Sources */,
+				AE8CA7CC1D74282A001F4BA3 /* cellPayments.m in Sources */,
 				AE8CA7821D73DB10001F4BA3 /* SBJsonTokeniser.m in Sources */,
 				AE8CA7791D73DB10001F4BA3 /* NSObject+SBJson.m in Sources */,
 				AE8CA7AF1D73DC2D001F4BA3 /* Weather.m in Sources */,
 				AE8CA7411D73D5C8001F4BA3 /* main.m in Sources */,
 				AE8CA7A51D73DB3D001F4BA3 /* ObjectMapper.m in Sources */,
 				AE8CA7BE1D73DCE2001F4BA3 /* OCMapperConfig.m in Sources */,
+				AE8CA7C71D74256C001F4BA3 /* Payments.m in Sources */,
 				AE8CA77F1D73DB10001F4BA3 /* SBJsonStreamWriter.m in Sources */,
 				AE8CA7AC1D73DC14001F4BA3 /* Coord.m in Sources */,
 				AE8CA77D1D73DB10001F4BA3 /* SBJsonStreamParserAdapter.m in Sources */,

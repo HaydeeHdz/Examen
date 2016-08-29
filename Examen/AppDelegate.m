@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "OCMapperConfig.h"
+#import "PayPalMobile.h"
 @import GoogleMaps;
 
 @interface AppDelegate ()
@@ -18,9 +19,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
     [GMSServices provideAPIKey:@"AIzaSyDtOdyIiiHtQ7gJcqtrBHALpbn_7dQwU7E"];
     [OCMapperConfig configure];
+    [PayPalMobile initializeWithClientIdsForEnvironments:@{PayPalEnvironmentProduction : @"YOUR_CLIENT_ID_FOR_PRODUCTION",
+                                                           PayPalEnvironmentSandbox : @"YOUR_CLIENT_ID_FOR_SANDBOX"}];
     return YES;
 }
 
