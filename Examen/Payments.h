@@ -14,6 +14,5 @@
 @property (strong, nonatomic) IBOutlet UITableView *tblPayments;
 @property int index;
 @property int bntRow;
--(void)callsegue:(int)index;
 
 @end
